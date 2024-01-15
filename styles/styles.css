@@ -1,5 +1,57 @@
-h1{
-    background-color: aquamarine;
-    font-size: larger;
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:wght@300;400;700;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+body{  
+font-family: 'Mulish', sans-serif;
+}
+
+/* navbar style starts here */
+.header-section{
+    max-width: 1440px;
+    /* background-color: red; */
+    margin: 0 auto;
+    border: 2px solid blue;
+    display: flex;
+}
+.nav-container{
+    /* margin: 50px 135px; */
+    min-height: 20px;
+    display: flex;
+    /* justify-content: center; */
+    align-items:center;
+    /* border: 2px solid blue; */
+    width: 50%;
+}
+.nav-container img{
+    width: 48px;
+    gap: 20px;
+}
+.nav-container p{
+    font-size: 36px;
+    font-weight: 800;
+    color: #131318;
+}
+.special{
+    color: #FF5400;
+}
+.logo-gap{
+    margin-left: 16px;
+}
+.items-container{  
+    border: 2px solid green;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    gap: 44px;
+    align-items: center;
+}
+.items-container a{
+    text-decoration: none;
+    color: #424247;
+    font-weight: 400;
+    font-size: 18px;
+}
+.home-color{
+    color: #FF5400;
+    font-weight: 700;
+    margin-left: 44px;
 }
