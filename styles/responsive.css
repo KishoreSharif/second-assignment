@@ -1,9 +1,13 @@
 @media screen and (max-width: 600px) {
     .header-section{
-        flex-direction: column;            
-    }
+        flex-direction: initial;  
+        margin-left: 5%;                        
+    }   
     .items-container{  
-        flex-direction: column;
-        nav-index ;
-    }       
+        flex-direction:column; 
+         
+        align-items:last baseline;      
+        margin-left: 50px;
+        gap: 40px;
+    }    
 }
