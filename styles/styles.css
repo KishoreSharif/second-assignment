@@ -78,9 +78,10 @@ body {
   height: 500px;
   flex-shrink: 0;
   margin-left: 180px;
+  margin-bottom: 100px;
 }
 .banner-text {
-border-radius: 16px;
+  border-radius: 16px;
   padding-top: 100px;
   margin-left: 0px;
   background: linear-gradient(
@@ -114,7 +115,7 @@ border-radius: 16px;
   width: 130px;
   height: 35px;
   font-weight: bold;
-  background-color: red;
+  background: #ff5400;
   letter-spacing: 3px;
   margin-left: 50px;
   color: rgb((225, 230, 0));
@@ -122,63 +123,162 @@ border-radius: 16px;
   border: none;
   cursor: pointer;
 }
-.where{
-width: 174px;
-height: 52px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #FFF;
-font-family: Mulish;
-font-weight: 700;
-outline: none;
+.where {
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  font-family: Mulish;
+  font-weight: 700;
+  outline: none;
 }
-.when{
-    width: 174px;
-    height: 52px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background: #FFF; 
-    font-family: Mulish;
-    font-weight: 700;
-    outline: none;
+.when {
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  font-family: Mulish;
+  font-weight: 700;
+  outline: none;
 }
-.select{
-    width: 174px;
-height: 52px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #FFF;
-font-family: Mulish;
-font-weight: 700;
-outline: none;
+.select {
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #fff;
+  font-family: Mulish;
+  font-weight: 700;
+  outline: none;
 }
-.find{
-    width: 174px;
-height: 52px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #FF5400;
-font-family: Mulish;
-color: #FFF;
+.find {
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff5400;
+  font-family: Mulish;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  outline: none;
+  cursor: pointer;
+}
+
+.search-bar {
+  margin-top: 50px;
+  align-items: center;
+  margin-left: 350px;
+  margin-right: 300px;
+}
+/* banner part ends here */
+/* banner section styles start here */
+.banner-section {
+  margin-left: 175px;
+  margin-right: 330px;
+  /* background-color: red; */
+  /* border: 2px solid blue; */
+  min-height: 550px;
+  display: flex;
+  margin-bottom: 100px;
+}
+.text-container {
+  /* border: 2px solid green; */
+  width: 50%;
+}
+.banner-image-container {
+  /* border: 2px solid violet; */
+  width: 50%;
+}
+.banner-image-container img {
+  width: 100%;
+  display: block;
+  /* margin: 0 auto; */
+  /* object-fit: cover; */
+}
+.tours-heading {
+  color: #131318;
+  text-align: left;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.text-container p {
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  line-break: 15px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+.points {
+  width: 525px;
+  margin-left: 20px;
+  color: rgba(19, 19, 24, 0.7);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.end {
+  color: #5a5a5d;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.read-button {
+  margin-top: 35px;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #ff5400;
+}
+/* banner section styles end here */
+/* choose your destination section styles start here */
+.choose {
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 24px;
+}
+.adventure{
+    color: rgba(19, 19, 24, 0.70);
 text-align: center;
 font-family: Mulish;
 font-size: 16px;
 font-style: normal;
-font-weight: 700;
-line-height: normal;
-outline: none;
-cursor: pointer;
+font-weight: 400;
+line-height: 26px;
+/* margin-bottom: 48px; */
 }
+/* choose your destination section styles end here */
+/* list of destination starts here */
 
-.search-bar{
-    margin-top: 50px;
-    align-items: center;
-    margin-left: 350px;
-    margin-right: 300px;
-    
-
-}
-.magni{
-    background: url('<i class="fa-solid fa-magnifying-glass"></i>');
-}
-/* banner part ends here */
+/* list of destination end here */
